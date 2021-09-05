@@ -1,0 +1,26 @@
+.help-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.help-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+.help-table th,
+.help-table td {
+    padding: 12px 25px;
+}
+.help-table tbody tr {
+    border-bottom: thin solid #dddddd;
+}
+.help-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+.help-table tbody tr:last-of-type {
+    border-bottom: medium solid #009879;
+}
